@@ -12,7 +12,7 @@ connection_string = 'climatedb'
 var db = mongo(connection_string, ['climate'])
 
 //Port to run the web server on
-const PORT = 8080
+const PORT = process.env['SERVER_PORT']
 const requestValidator = function(req, res, next){
 	if(req.method != 'GET'){
 		res.status(405)
