@@ -1,0 +1,53 @@
+{  
+   'data':[  
+      {  
+         'heading':'9 Eastern States Target Vehicle Emissions with New Cap-and-Trade Plan',
+         'link':'https://insideclimatenews.org/news/20122018/climate-change-solutions-transportation-cap-and-trade-northeast-states-washington-california-model-rggi',
+         'source':'(InsideClimate News)',
+         'content':"Nine Eastern states have committed to cut transportation emissions in their region by designing a new cap-and-trade system. Details have yet to be worked out, but it's likely to follow California's example, with funds going to low-carbon choices like electric vehicles and public transit."
+      },
+      {  
+         'heading':'Powerless: What It Looks Like When a Gas Driller Overruns Your Land',
+         'link':'https://www.wvgazettemail.com/news/wv_troubled_transition/reasonably-necessary-how-natural-gas-drilling-is-changing-wv-s/article_b9853173-0147-52b1-ad2c-f3c5e293a7b1.html',
+         'source':'(Charleston Gazette-Mail and ProPublica)',
+         'content':'The gas rush in West Virginia is changing the face of the state. Land owners often don\'t own the natural gas beneath the surface, and long-standing property rights law says mineral owners may do whatever is "reasonably necessary" to extract natural gas from the ground, whether they own the affected land above or not.'
+      },
+      {  
+         'heading':'EPA Grants Exxon ‘Hardship Waiver’ from Biofuels Law, Sources Say',
+         'link':'https://www.reuters.com/article/us-usa-biofuels-exxon-mobil-exclusive-idUSKCN1OI292',
+         'source':'(Reuters)',
+         'content':'ExxonMobil reported nearly $20 billion in earnings last year, but the EPA still granted a "hardship waiver" this year that temporarily frees its Montana refinery from U.S. biofuel laws, Reuters reports, citing three sources familiar with the matter. The waiver program was meant to help small fuel facilities.'
+      },
+      {  
+         'heading':"Rising Waters Threaten to Drown Amtrak's Northeast Corridor",
+         'link':'https://www.bloomberg.com/graphics/2018-amtrak-sea-level/',
+         'source':'(Bloomberg)',
+         'content':"A report on Amtrak's climate vulnerabilities shows that operations in Delaware and other parts of its Northeast Corridor route are immediately threatened by the effects of climate change. Flooding, rising seas and storm surge are identified as the biggest dangers."
+      },
+      {  
+         'heading':'CBO Dismisses Costs of Global Warming, Posing Hurdle for Climate Legislation',
+         'link':'https://www.huffingtonpost.com/entry/congressional-budget-office-climate-change_us_5c1a735de4b01059bfc62b8c',
+         'source':'(The Huffington Post)',
+         'content':'Deep inside a lengthy report, the Congressional Budget Office claims that climate change poses little economic risk to the U.S. in the next decade, a statement that ignores the strong science-based warnings issued a few weeks ago by 13 federal agencies in the latest National Climate Assessment, as well as warnings from national intelligence agencies earlier this year.'
+      },
+      {  
+         'heading':'Senators Flake, Coons Introduce Bipartisan Climate Bill',
+         'link':'https://thehill.com/policy/energy-environment/422152-gop-sen-jeff-flake-to-co-introduce-bipartisan-climate-bill',
+         'source':'(The Hill)',
+         'content':"Sens. Jeff Flake (R-Ariz.) and Chris Coons (D-Del.) introduced a carbon pricing bill on Wednesday. The bill is a companion to legislation introduced by a bipartisan group in the House in November. Given the timing, it's unlikely to get attention this year, though, and Flake is leaving office in January. "
+      },
+      {  
+         'heading':'Controversial Great Lakes Pipeline Tunnel Given Final Approval',
+         'link':'https://www.ecowatch.com/michigan-pipeline-tunnel-final-approval-2623937150.html',
+         'source':'(EcoWatch)',
+         'content':'Enbridge has been given the final go-ahead to replace its aging Line 5 pipelines with a tunnel, which will be drilled into the bedrock beneath the Straits of Mackinac. Opponents are concerned that it locks in more fossil fuels for decades to come.'
+      },
+      {  
+         'heading':'House Climate Change Panel Unlikely to Have Subpoena Power',
+         'link':'https://thehill.com/policy/energy-environment/422132-house-climate-change-panel-unlikely-to-have-subpoena-power',
+         'source':'(The Hill)',
+         'content':'The climate change committee that Democrats plan to establish will serve as an "recommendatory committee" for other committees, incoming House Majority Leader Steny Hoyer told reporters. That means it wouldn\'t be able to issue subpoenas.'
+      }
+   ],
+   'date':'December 20, 2018'
+}
