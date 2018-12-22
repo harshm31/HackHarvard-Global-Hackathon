@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import urllib.request
 from bs4 import BeautifulSoup
 import sys
-sys.path.insert(0,'../ClimateNews')
+sys.path.insert(0,'/ClimateNews/')
 import news_json_parser as njp
 import os 
 
