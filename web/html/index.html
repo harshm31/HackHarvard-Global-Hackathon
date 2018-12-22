@@ -21,6 +21,8 @@
 
 	<link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
 
+	<script type="text/javascript" src="../scripts/get_news.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
@@ -28,7 +30,7 @@
 <div class="menu-bar">
 	<div class="row header">
 		<div class="col-sm-3 title">
-			<a href="#" class="header_link"> <p id="title"> ClimateCity </p></a>
+			<!-- <a href="#" class="header_link"> --> <p id="title"> ClimateCity </p><!-- </a> -->
 		</div>
 		<div class="col-sm-3"></div>
 		<div class="col-sm-4 links">
@@ -39,10 +41,10 @@
 						<a class="nav-link" href="city.html"> City </a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link"> News </a>
+						<a href="#news" class="nav-link"> News </a>
 					</li>
-					<li class="nav-link" href = "#" id="about">
-						<a href="#" class="nav-link" > About Us </a>
+					<li class="nav-item">
+						<a href="#science" class="nav-link" > Science </a>
 					</li>
 				</ul>
 			</nav>
@@ -56,6 +58,86 @@
 <div id="banner"> 
 </div>
 
+<section id = "news">
+<div class="news-container">
+</div>
+</section>
+
+<div class="famous_people">
+	<div class="row">
+		<div class="content">
+			<div class="content_text">
+				<p id = "content_text">Leonardo DiCaprio , a name that tops many lists, but today we recognize his leading role in fighting climate change. In 1998, after his successful role in Titanic, he established the Leonardo DiCaprio Foundation—at a mere 24 years old. The organization’s goal is to promote environmental awareness whenever and wherever it can.
+
+	This Hollywood hero has sat on the board of various environmental organizations, including WWF, International Fund for Animal Welfare, Global Green USA and Natural Resources Defense Council. These are only a few names in a long list of climate change progress made.
+	Just to highlight Leonardo’s outstanding and continuous dedication to fighting climate change, he was caught this April attending the 2017 People’s Climate March.
+				</p>
+			</div>
+		</div>
+		<div class="content_image">
+			<img src="../images/famous_person1.jpeg" alt = "image" id="content_image">
+		</div>
+	</div>
+</div>
+
+
+<section id="science">
+	<div class="climate_science">
+		<h3 id = "climate_science_title"> Climate Change : How do we know ? </h3>
+		<br>
+		<div class="graph">
+			<img src="../images/climate_graph.jpeg" alt = "graph" class="graph_image">
+			<p class = "graph_caption">This graph, based on the comparison of atmospheric samples contained in ice cores and more recent direct measurements, provides evidence that atmospheric CO2 has increased since the Industrial Revolution. (Credit: Vostok ice core data/J.R. Petit et al.; NOAA Mauna Loa CO2 record.)</p>
+		</div>
+		<br>
+		<br>
+		<h3 id = "climate_science_title">Scientific consensus: Earth's climate is warming</h3>
+		<div class="graph">
+			<img src="../images/climate_graph2.jpeg" class="graph_image" alt="graph">
+			<p class="graph_caption2">Temperature data showing rapid warming in the past few decades. According to NASA data, 2016 was the warmest year since 1880, continuing a long-term trend of rising global temperatures. The 10 warmest years in the 138-year record all have occurred since 2000, with the four warmest years being the four most recent years. Credit: NASA/NOAA.</p>
+		</div>
+		<br>
+		<div class="evidences">
+			<h4 class="evidence_title"> The evidence for rapid climate change is compelling : </h4>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="../images/global_temperature.jpeg" alt = "image",class="card_image card-img-top">
+						<div class="card-body">
+							<h4 class="card-title"> Global temperature Rise </h4>
+							<p class="card-text">The planet's average surface temperature has risen about 1.62 degrees Fahrenheit ,  a change driven largely by increased carbon dioxide and other human-made emissions into the atmosphere.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="../images/warming_oceans.jpeg" alt = "image",class="card_image card-img-top">
+						<div class="card-body">
+							<h4 class="card-title"> Warming Oceans </h4>
+							<p class="card-text">The oceans have absorbed much of this increased heat, with the top 700 meters (about 2,300 feet) of ocean showing warming of more than 0.4 degrees Fahrenheit since 1969.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<img src="../images/sea_level_rise.jpeg" alt = "image",class="card_image card-img-top">
+						<div class="card-body">
+							<h4 class="card-title"> Sea Level Rise </h4>
+							<p class="card-text">Global sea level rose about 8 inches in the last century. The rate in the last two decades, however, is nearly double that of the last century and is accelerating slightly every year.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!-- footer -->
+<div class="footer">
+	<p id="footer_text"> <i class="fa fa-copyright" aria-hidden="true"></i> Owned by TechCrunchGeniuses 2018 </p>
+</div>
 
 </body>
 </html>`

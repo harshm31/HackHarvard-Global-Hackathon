@@ -4,8 +4,15 @@
 	background-color: #110c11;
 	width: 100%;
 	height : 10vh;
-	border-bottom: 1px solid #ffffff;
+	/*border-bottom: 1px solid #ffffff;*/
 }
+
+body
+{
+	background-color: #ffffff;
+	position: relative;
+}
+
 .menu-bar
 {
 	width: 100%;
@@ -65,6 +72,7 @@
 	width: 100%;
 	height: 90vh;
 	background-color: black;
+	border-bottom: 1px solid #ffffff;
 }
 .img_container
 {
@@ -106,4 +114,154 @@
 {
 	width: 100%;
 	height: 90vh;
+}
+
+.news-container
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+	color: #111111;
+	border-radius: 5px;
+	border: 0.5px solid #ffffff;
+}
+
+.articles 
+{
+	font-family: 'Courier New','Times New Roman';
+}
+
+.article_title
+{
+	font-size: 4vh;
+	color : #110c11;
+	font-weight: 25;
+}
+#news_title
+{
+	color: #ffae19;
+	font-size: 4vh;
+	font-style: oblique;
+	margin-top: 2%;
+}
+.news_date
+{
+	font-size: 2vh;
+}
+.news_title
+{
+	margin-bottom: 1%;
+}
+
+#article_author
+{
+	color: #ffae19;
+	font-style: oblique;
+	font-size: 2.5vh;
+	text-decoration: underline;
+	text-align: right;
+	margin-right: 2%;
+}
+
+.nav_link:link {
+  text-decoration: none;
+}
+
+/* visited link */
+.nav_link:visited {
+  color: green;
+}
+
+/* mouse over link */
+.nav_link:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.nav_link:active {
+  color: blue;
+}
+
+.climate_science
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #ffffff;
+	margin-bottom: 5%;
+}
+
+#section_divider 
+{
+	border: 0.5px solid  #a6a6a6;
+}
+
+#climate_science_title
+{
+	color: #400000;
+	font-style: oblique;
+	font-size: 4.5vh;
+	font-weight: bold;
+}
+.graph_image
+{
+	width: 90vw;
+	height: auto;
+}
+.graph_caption
+{
+	margin-top: 15px;
+	text-align: center;
+}
+.graph_caption2
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.famous_people
+{
+	width: 100%;
+	height: 50vh;
+	background-color: #00274d;
+	color: #ffffff;
+	font-style: oblique;
+	font-size: 2.5vh;
+	margin-bottom: 2%;
+}
+.content
+{
+	margin-left : 10%;
+	width: 50%;
+	position: relative;
+	top : 40px;
+}
+#content_text
+{
+	position: relative;
+	top : 5%;
+}
+.content_image
+{
+	margin-left: 5%;
+	width: 30%;
+	margin-right: 5%;
+	margin-top : 3.5%;
+}
+
+.footer
+{
+	background-color: #110c11;
+	width: 100%;
+	height: 4vh;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+#footer_text
+{
+	font-size: 2.5vh;
+	text-align: center;
+	color: #ffffff;
 }

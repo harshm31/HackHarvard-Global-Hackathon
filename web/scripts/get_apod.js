@@ -20,7 +20,7 @@ function get_apod()
 				img_copyright = data["copyright"];
 				img_date = data["date"];
 				title = data["title"];
-				url = data["hdurl"];
+				url = data["url"];
 				desc = data["explanation"];
 
 				$("#banner").append(
