@@ -40,4 +40,4 @@ def get_json_output(soup) :
     json1 = json.dumps(arr)
     json_response = json.loads(json1)
     
-    return json_response
+    return arr
