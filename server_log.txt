@@ -1,0 +1,15 @@
+/home/bitnami/server/code/ClimateNews/
+/home/bitnami/server/code
+/usr/lib/python35.zip
+/usr/lib/python3.5
+/usr/lib/python3.5/plat-x86_64-linux-gnu
+/usr/lib/python3.5/lib-dynload
+/home/bitnami/.local/lib/python3.5/site-packages
+/usr/local/lib/python3.5/dist-packages
+/usr/lib/python3/dist-packages
+5001
+ * Serving Flask app "flaskapp" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
