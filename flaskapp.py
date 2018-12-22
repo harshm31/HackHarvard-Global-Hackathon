@@ -19,11 +19,8 @@ def parse_request():
     req = requests.get(url , verify = False)
     soup = BeautifulSoup(req.content,"lxml")
 
-    try :
-        output=njp.get_json_output(soup)
-        return output
-    except Exception as e :
-        return e
+    output=njp.get_json_output(soup)
+    return jsonify(output)
 if __name__ == "__main__":
     server_port = os.environ['SERVER_PORT']
     print(server_port)
