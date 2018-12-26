@@ -6,11 +6,21 @@
 	height : 10vh;
 	/*border-bottom: 1px solid #ffffff;*/
 }
+.menu-bar
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+}
 
 body
 {
 	background-color: #ffffff;
 	position: relative;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 .menu-bar
@@ -78,6 +88,7 @@ body
 {
 	position: relative;
  	text-align: center;
+ 	top : 10vh;
   	color: white;
 }
 .top-left {
@@ -121,6 +132,7 @@ body
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-top: 10vh;
 	height: auto;
 	color: #111111;
 	border-radius: 5px;
@@ -189,6 +201,7 @@ body
 	margin-right: 5%;
 	background-color: #ffffff;
 	margin-bottom: 5%;
+	margin-top: 5vh;
 }
 
 #section_divider 
@@ -223,11 +236,12 @@ body
 {
 	width: 100%;
 	height: 50vh;
-	background-color: #00274d;
+	background-color: #232f3e;
 	color: #ffffff;
 	font-style: oblique;
 	font-size: 2.5vh;
 	margin-bottom: 2%;
+	margin-top: 5vh;
 }
 .content
 {
@@ -253,15 +267,15 @@ body
 {
 	background-color: #110c11;
 	width: 100%;
-	height: 4vh;
-	position: absolute;
-	bottom: 0px;
+	height: 6vh;
+	position: relative;
+	bottom: -25px;
 	left: 0;
 	right: 0;
 }
 #footer_text
 {
-	font-size: 2.5vh;
+	font-size: 3vh;
 	text-align: center;
 	color: #ffffff;
 }

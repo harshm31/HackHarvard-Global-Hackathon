@@ -1,3 +1,5 @@
 nasa api key : BAGV1YD0sK0ln96PDnZp47Q1UYuCEhOTr9yRNsIh
 
 news api : 2880f56c7bbb4311938d0025fb32ae34
+
+city info api : https://en.wikipedia.org/w/api.php?action=opensearch&search=cityname&limit=2&format=json

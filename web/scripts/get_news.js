@@ -17,7 +17,7 @@ function get_news()
 	$.ajax(
 	{
 		type : 'GET',
-		url : 'https://newsapi.org/v2/everything?q=indian climate&pageSize=8&apiKey=2880f56c7bbb4311938d0025fb32ae34',
+		url : 'https://newsapi.org/v2/everything?q=indian climate&pageSize=5&apiKey=2880f56c7bbb4311938d0025fb32ae34',
 		dataType : 'json',
 		crossOrigin : 'true',
 
