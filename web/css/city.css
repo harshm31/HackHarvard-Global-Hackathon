@@ -10,6 +10,13 @@ select
 	text-align-last: center;
 	margin-bottom: 5vh;
 }
+
+body
+{
+	background : #110c11;
+	overflow-x: hidden;
+}
+
 .home_link
 {
 	color: #ffffff;
@@ -23,31 +30,50 @@ select
 
 #city_info
 {
-	margin-top: 45vh;
+	margin-top: 0.5vh;
 }
 
 #city_info_title
 {
 	/*font-family: 'Courier New','Times New Roman';*/
-	color: #232f3e;
+	color: #ffffff;
 	font-size: 5vh;
 	font-weight: 10;
 	font-style: oblique;
-	margin : 10vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+}
+
+
+#historical_data_title
+{
+	/*font-family: 'Courier New','Times New Roman';*/
+	color: #ffffff;
+	font-size: 5vh;
+	font-weight: 10;
+	font-style: oblique;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-bottom: 5vh;
+	margin-top: 4vh;
 }
 
 .info_box
 {
-	background-color: #131a22;
+	background-color: #343a40;
 	margin-left: 10vh;
 	margin-right: 10vh;
-	margin-top: -4vh;
+	/*margin-top: -4vh;*/
 	height: 40vh;
 	color: #ffffff;
 	text-align: center;
 	overflow-y: scroll;
 	padding-left: 10px;
 	padding-bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .info_box_img
@@ -65,14 +91,12 @@ select
 	margin-right: 0px;
 }
 
-.fixed-content
+.hist_table
 {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0px;
-	z-index: 1000;
+	margin-right: 10vh;
+	margin-left: 10vh;
 }
+
 
 
 /*the blue #232f3e*/

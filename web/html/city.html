@@ -20,14 +20,18 @@
 	<!-- js script file for page -->
 	<script type="text/javascript" src="../scripts/city.js"></script>
 
+	<!-- js script file for particle js -->
+	<script type="text/javascript" src = "../scripts/particles.js"></script>
+
 	<link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 
 	<link rel="stylesheet" type="text/css" href="../css/city.css">
 </head>
-<body>
 
+<!-- <body id = "particles-js"> -->
+<body>
 <div class="fixed-content">
 <!-- menu bar -->
 
@@ -54,23 +58,23 @@
 	<div class="form-group">
 		<select class="form-control" id = "select_city">
 			<option class="option">Select City</option>
-			<option class="option">Mumbai</option>
-			<option class="option">Delhi</option>
-			<option class="option">Bangalore</option>
-			<option class="option">Agra</option>
-			<option class="option">Ahmedabad</option>
-			<option class="option">Pune</option>
-			<option class="option">Vishakapatnam</option>
-			<option class="option">Indore</option>
-			<option class="option">Kolkata</option>
-			<option class="option">Kanpur</option>
-			<option class="option">Ludhiana</option>
-			<option class="option">Lucknow</option>
-			<option class="option">Patna</option>
-			<option class="option">Vadodara</option>
-			<option class="option">Chennai</option>
-			<option class="option">Coimbatore</option>
-			<option class="option">Nagpur</option>
+			<option class="option">Mumbai - 1275339</option>
+			<option class="option">Delhi - 1261481</option>
+			<option class="option">Bangalore - 1277333</option>
+			<option class="option">Agra - 1279299</option>
+			<option class="option">Ahmedabad - 1255364</option>
+			<option class="option">Pune - 1259229</option>
+			<option class="option">Vishakapatnam - 1253102</option>
+			<option class="option">Indore - 1269743</option>
+			<option class="option">Kolkata - 1275004</option>
+			<option class="option">Kanpur - 1283240</option>
+			<option class="option">Ludhiana - 1264728</option>
+			<option class="option">Lucknow - 6061818</option>
+			<option class="option">Patna - 1269517</option>
+			<option class="option">Vadodara - 1253573</option>
+			<option class="option">Chennai - 1264527</option>
+			<option class="option">Coimbatore - 1273865</option>
+			<option class="option">Nagpur - 1262180</option>
 		</select>
 	</div>
 </div>
@@ -107,5 +111,143 @@
 </section>
 
 
+<section id = "historical_data">
+	<h3 id = "historical_data_title">Historical Data </h3>
+	<div class="table-responsive-sm hist_table">
+		<table class="table table-dark table-hover table-striped">
+			<thead>
+				<th class="table_header">Date & Time</th>
+				<th class="table_header"> Temp</th>
+				<th class="table_header"> Pressure</th>
+				<th class="table_header"> Humidity</th>
+				<th class="table_header"> Temp_Min</th>
+				<th class="table_header"> Temp_Max</th>
+				<th class="table_header"> Wind_Speed</th>
+				<th class="table_header"> Wind_Deg</th>
+				<th class="table_header">Cloudiness</th>
+				<th class="table_header"></th>
+			</thead>
+			<tbody id = "table_body">
+				<!-- add content through script file  -->
+			</tbody>
+			
+		</table>
+	</div>
+</section>
+
 </body>
+
+<!-- adding code for particle js file -->
+<script type="text/javascript">
+	particlesJS("particles-js",{
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
 </html>
