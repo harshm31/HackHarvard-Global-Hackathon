@@ -7,6 +7,7 @@
 var express = require('express')
 var mongo = require('mongojs')
 var app = express()
+var path = require('path')
 
 connection_string = 'climatedb'
 var db = mongo(connection_string, ['climate'])
@@ -29,9 +30,9 @@ const monthMapping = {'Mar': 3, 'Feb': 2, 'Aug': 8, 'Apr': 4, 'June': 6, 'Jan': 
 
 /** route: GET /climateData
  *  example:
- *  localhost:3000/climateData?city=agra
+ *  localhost:5000/climateData?city=agra
  * **/
-app.get('/climateData', function(req, res){
+app.get('/api/climateData', function(req, res){
 	const city = req.query.city.toLowerCase()
 	db.climate.find({'city':city}, function(err, docs){
 		if( docs==undefined || docs.size == 0){
@@ -47,11 +48,25 @@ app.get('/climateData', function(req, res){
 /** route: GET /monthMapping
  *  Returns a mapping between month_name('string') and month_num('int')
  * **/
-app.get('/monthMapping', function(req, res){
+app.get('/api/monthMapping', function(req, res){
 	res.send(monthMapping)
 })
+ 
 
+app.use('/css',express.static(__dirname + '/web/css'))
+app.use('/scripts',express.static(__dirname+'/web/scripts'))
+app.use('/images',express.static(__dirname+'/web/images'))
+/** route : GET /web 
+ * returns home web page as output 
+ *  **/
+app.get('/web',function(req,res){
+	res.sendFile(__dirname+'/web/html/index.html')
+})
 
+app.get('/city.html',function(req,res) 
+{
+	res.sendFile(__dirname+'/web/html/city.html')
+})
 
 app.listen(PORT, function(){
 	console.log('App is running on Port number ' + PORT)

@@ -22,17 +22,14 @@ function getCityInfo(city)
 	{
 		type : 'get',
 		url : network_url,
-		dataType : 'json',
+		dataType : 'jsonp',
 		crossOrigin : 'true',
-		crossDomain :'true',
-		beforeSend : function(request) 
+		crossDomain :true,
+		headers : 
 		{
-			request.setRequestHeader("Access-Control-Allow-Credentials","true");
-			request.setRequestHeader("Access-Control-Allow-Origin"," * ");
-			request.setRequestHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-			request.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
-			//request.setRequestHeader("Origin","*");
-		},
+			'Access-Control-Allow-Origin': '*',
+        		'Access-Control-Allow-Credentials': true,
+		},	
 		success : function(data,status)
 		{
 			$(".info_box").html("");
